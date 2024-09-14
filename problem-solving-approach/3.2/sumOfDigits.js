@@ -1,3 +1,15 @@
+// appropach-01
+// function sumOfdigits(num) {
+//   const numToStr = num.toString();
+//   let sum = 0;
+//   for (let elem of numToStr) {
+//     sum += Number(elem);
+//   }
+//   return sum;
+// }
+
+// console.log(sumOfdigits(123));
+
 //  "repeated division" or "modulo and divide" algorithm
 function sumOfdigits(num) {
   //1.0 => put the last digit of number into sum
