@@ -25,3 +25,6 @@ console.log(countItemsWithMap(["a", "b", "a", "c", "b", "b"])); // Output: {a: 2
 console.log(countItemsWithMap([])); // Output: {}
 console.log(countItemsWithMap([true, false, true, true])); // Output: {true: 3, false: 1}
 console.log(countItemsWithMap([1, "1", 2, "2", 2])); // Output: {1: 1, '1': 1, 2: 2, '2': 1}
+console.log(
+  countItemsWithMap(["apple", "banana", "cherry", "apple", "orange", "banana"])
+); // Output: {1: 1, '1': 1, 2: 2, '2': 1}
